@@ -1,7 +1,4 @@
-body{
-    background: #dbd4d4;
-}
-
+ 
  h1{
     margin-left: 20%;
    margin-top: -5%;
@@ -11,17 +8,16 @@ body{
 .header{
     margin-left: 10%;
     margin-top: -20%;
-    background-color: white;
+    background-color: #272727;
 }
 .article{
-    margin-left: 20%;
-    margin-top: -20%;
+    margin-left: 15%;
+    margin-top: -21%;
     background-color: white;
+    transition: transform 0.5s linear;
 
 }
-
-
-div{
+.wrapper{
     width: 300px;
     height: 300px;
     border: 2px solid red;
@@ -29,15 +25,15 @@ div{
     background-color: rgb(240, 89, 89);
     margin-left: -12%;
     margin-top: -12%;
-}
 
+}
 .image{
-    
     margin-left: 55%;
     margin-top: 60%;
     width: 70px;
     cursor: pointer;
-
+  
+ 
 }
 .img2{
     display: none;
@@ -45,7 +41,7 @@ div{
     margin-top: 60%;
     width: 70px;
     cursor: pointer;
-
+   
 }
 
  span{
@@ -64,8 +60,28 @@ article .title {
     font-family: 'Roboto', sans-serif;
    
 }
-article img{
+.photo{
     border: 8px solid white;
     border-radius: 8px;
     margin-left: 20%;
 }
+
+ .container{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50%;
+    display: none;
+}
+ .container p{
+   
+    margin-left: 60px;
+    margin-top: -35px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    
+    
+} 
+
+
